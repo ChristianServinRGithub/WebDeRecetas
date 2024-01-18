@@ -1,0 +1,38 @@
+:root {
+    --gold-50: #fefce8;
+    --gold-100: #fffbc2;
+    --gold-200: #fff487;
+    --gold-300: #ffe643;
+    --gold-400: #ffd30f;
+    --gold-500: #efba03;
+    --gold-600: #ce9000;
+    --gold-700: #a46604;
+    --gold-800: #884f0b;
+    --gold-900: #734110;
+    --gold-950: #432105;
+  }
+
+.r-conteiner-display {
+    background-color: var(--gold-300);
+    border: 2px solid var(--gold-600);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    height: 85%;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    z-index: 2;
+}
+
+.btn-cerrar {
+    -webkit-user-drag: none;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+    width: 30px;
+}

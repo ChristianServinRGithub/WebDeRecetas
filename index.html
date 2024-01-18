@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/iconos/cocinero.png">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/newRecip.css">
+    <link rel="stylesheet" href="./assets/css/recetario.css">
+    <title>Web de Recetas Colaborativo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos a nuestro recetario collectivo</h1>
+        <img class="img-header" src="./assets/img/iconos/cocina.png" alt="Simbolo de cocina">
+    </header>
+    <main>
+        <div class="conteiner">
+            <section id="section-1">
+                <img src="./assets/img/gifs/parrilla.gif" alt="parrilla cocinando">
+            </section>
+            <section id="section-2">
+                <img class="s2-img1" src="./assets/img/gifs/cake.gif" alt="Pastel de fresa">
+                <button id="btn-nuevaReceta" type="submit"><img src="./assets/img/gifs/budin.gif"
+                        alt="Buddin Animado">Agregar receta nueva</button>
+                <button id="btn-recetario"><img src="./assets/img/gifs/recetario.gif"
+                        alt="Bentos japoneses">Recetario</button>
+                <img class="s2-img2" src="./assets/img/gifs/hot-cakes.gif" alt="Hot-Cakes">
+            </section>
+            <section id="section-3">
+                <img src="./assets/img/gifs/arroz.gif" alt="Platillo de Arroz con Huevo">
+            </section>
+        </div>
+        <div class="nr-conteiner">
+            <section class="nr-s1">
+                <h3>Nombre de la receta</h3>
+                <input type="text" class="">
+                <h4>Imagen (opcional)</h4>
+                <img src="./assets/img/iconos/cocinero.png" alt="">
+                <input type="file" name="" id="">
+                <h3>Descripción:</h3>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+            <section class="nr-s2">
+                <h3>Ingredientes:</h3>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+            <section class="nr-s3">
+                <h3>Preparación:</h3>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+            <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
+            <button class="btn-agregar" type="submit">Agregar Receta</button>
+        </div>
+        <div class="r-conteiner-display">
+            <h3>Recetario:</h3>
+            <div class="r-conteiner"></div>
+            <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
+        </div>
+    </main>
+
+    <footer>
+        <p>&#169; 2024 Todos los derechos reservados. Chris DEV</p>
+        <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados por
+            Smashicons - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/cocinero" title="cocinero iconos">Cocinero iconos creados por
+            Those Icons - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados por
+            Freepik - Flaticon</a>
+    </footer>
+</body>
+
+</html>
