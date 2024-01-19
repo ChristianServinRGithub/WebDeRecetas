@@ -11,23 +11,22 @@
     --gold-900: #734110;
     --gold-950: #432105;
   }
-
-.nr-conteiner {
+  
+  .nr-conteiner {
     background-color: var(--gold-300);
     border: 2px solid var(--gold-600);
     border-radius: 15px;
-    height:600px;
+    height: 600px;
     width: 600px;
     display: none;
     gap: 10px;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto;
-    transform: translate(60%,-100%);
+    transform: translate(60%, -100%);
     padding-left: 50px;
-    
-}
-
-.nr-s1 {
+  }
+  
+  .nr-s1 {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -35,34 +34,30 @@
     grid-row: 1/3;
     height: 100%;
     width: 100%;
-}
-
-.nr-s1 img {
+  }
+  
+  .nr-s1 img {
     width: 50px;
     height: 50px;
-}
-
-.nr-s2 {
+  }
+  
+  .nr-s2,
+  .nr-s3 {
     grid-column: 2/4;
-    grid-row: 1/2;
     height: 100%;
-}
-
-.nr-s3 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-
-.btn-cerrar {
+  }
+  
+  .btn-cerrar {
     -webkit-user-drag: none;
     cursor: pointer;
     position: absolute;
     right: 15px;
     top: 11px;
     width: 30px;
-}
-
-.btn-agregar {
+  }
+  
+  .btn-agregar {
     cursor: pointer;
     padding-bottom: 10px;
-}
+  }
+  

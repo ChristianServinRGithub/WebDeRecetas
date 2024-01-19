@@ -45,40 +45,44 @@
         <div id="nr-conteiner1" class="nr-conteiner">
             <section class="nr-s1">
                 <h3>Nombre de la receta</h3>
-                <input type="text" class="">
+                <input type="text" id="nombreReceta">
                 <h4>Imagen (opcional)</h4>
-                <img  src="./assets/img/iconos/cocinero.png" alt="imagen Predeterminada de gorro de cocina">
-                <input type="file" name="" id="">
+                <img src="./assets/img/iconos/cocinero.png" alt="imagen Predeterminada de gorro de cocina">
+                <input type="file" id="imagenReceta" name="imagenReceta">
                 <h3>Descripción:</h3>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea id="descripcionReceta" cols="30" rows="10"></textarea>
             </section>
             <section class="nr-s2">
                 <h3>Ingredientes:</h3>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea id="ingredientesReceta" cols="30" rows="10"></textarea>
             </section>
             <section class="nr-s3">
                 <h3>Preparación:</h3>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea id="preparacionReceta" cols="30" rows="10"></textarea>
             </section>
             <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
-            <button class="btn-agregar" type="submit">Agregar Receta</button>
+            <button class="btn-agregar" id="btn-agregar" type="submit">Agregar Receta</button>
         </div>
+
         <div id="r-conteiner-display2" class="r-conteiner-display">
             <h3>Recetario:</h3>
-            <div class="r-conteiner"></div>
+            <div id="recetasContenedor" class="r-conteiner">
+            </div>
             <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
         </div>
-    </main>
 
-    <footer>
-        <p>&#169; 2024 Todos los derechos reservados. Chris DEV</p>
-        <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados por
-            Smashicons - Flaticon</a>
-        <a href="https://www.flaticon.es/iconos-gratis/cocinero" title="cocinero iconos">Cocinero iconos creados por
-            Those Icons - Flaticon</a>
-        <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados por
-            Freepik - Flaticon</a>
-    </footer>
+        <footer>
+            <p>&#169; 2024 Todos los derechos reservados. Chris DEV</p>
+            <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados
+                por
+                Smashicons - Flaticon</a>
+            <a href="https://www.flaticon.es/iconos-gratis/cocinero" title="cocinero iconos">Cocinero iconos creados por
+                Those Icons - Flaticon</a>
+            <a href="https://www.flaticon.es/iconos-gratis/cocinando" title="cocinando iconos">Cocinando iconos creados
+                por
+                Freepik - Flaticon</a>
+        </footer>
+
 </body>
 
 </html>
