@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/newRecip.css">
     <link rel="stylesheet" href="./assets/css/recetario.css">
+    <script defer src="./assets/js/script.js"></script>
     <title>Web de Recetas Colaborativo</title>
 </head>
 
@@ -41,12 +42,12 @@
                 <img src="./assets/img/gifs/arroz.gif" alt="Platillo de Arroz con Huevo">
             </section>
         </div>
-        <div class="nr-conteiner">
+        <div id="nr-conteiner1" class="nr-conteiner">
             <section class="nr-s1">
                 <h3>Nombre de la receta</h3>
                 <input type="text" class="">
                 <h4>Imagen (opcional)</h4>
-                <img src="./assets/img/iconos/cocinero.png" alt="">
+                <img  src="./assets/img/iconos/cocinero.png" alt="imagen Predeterminada de gorro de cocina">
                 <input type="file" name="" id="">
                 <h3>Descripción:</h3>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -62,7 +63,7 @@
             <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
             <button class="btn-agregar" type="submit">Agregar Receta</button>
         </div>
-        <div class="r-conteiner-display">
+        <div id="r-conteiner-display2" class="r-conteiner-display">
             <h3>Recetario:</h3>
             <div class="r-conteiner"></div>
             <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
