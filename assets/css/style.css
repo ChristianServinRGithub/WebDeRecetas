@@ -24,11 +24,15 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--gold-400);
   border: 1px solid var(--gold-600);
   border-radius: 5px;
+}
+#soundcloud {
+  width: 300px;
+  height: 90px;
 }
 .img-header {
   width: 50px;
@@ -107,6 +111,11 @@ header {
   align-items: center;
 }
 
+#btn-nuevaReceta:hover {
+  background-color: var(--gold-600);
+  cursor: pointer;
+}
+
 #btn-nuevaReceta img {
   width: 50px;
 }
@@ -117,6 +126,11 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#btn-recetario:hover {
+  background-color: var(--gold-600);
+  cursor: pointer;
 }
 
 #btn-recetario img {
