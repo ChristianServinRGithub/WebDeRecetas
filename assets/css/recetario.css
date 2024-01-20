@@ -55,7 +55,6 @@
 .receta {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border: 1px solid var(--gold-700);
   border-radius: 5px;
@@ -63,6 +62,11 @@
   padding: 10px;
   background-color: var(--gold-100);
   overflow: auto;
+  word-wrap: break-word;
+}
+
+.receta textarea input {
+  overflow-wrap: break-word;
 }
 
 .receta img {
