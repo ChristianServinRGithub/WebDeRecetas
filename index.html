@@ -45,20 +45,20 @@
         <div id="nr-conteiner1" class="nr-conteiner">
             <section class="nr-s1">
                 <h3>Nombre de la receta</h3>
-                <input type="text" id="nombreReceta">
+                <input type="text" id="nombreReceta" required>
                 <h4>Imagen (opcional)</h4>
                 <img src="./assets/img/iconos/cocinero.png" alt="imagen Predeterminada de gorro de cocina">
-                <input type="file" id="imagenReceta" name="imagenReceta">
+                <input type="file" id="imagenReceta" name="imagenReceta" required>
                 <h3>Descripción:</h3>
-                <textarea id="descripcionReceta" cols="30" rows="10"></textarea>
+                <textarea id="descripcionReceta" cols="30" rows="10" required></textarea>
             </section>
             <section class="nr-s2">
                 <h3>Ingredientes:</h3>
-                <textarea id="ingredientesReceta" cols="30" rows="10"></textarea>
+                <textarea id="ingredientesReceta" cols="30" rows="10" required></textarea>
             </section>
             <section class="nr-s3">
                 <h3>Preparación:</h3>
-                <textarea id="preparacionReceta" cols="30" rows="10"></textarea>
+                <textarea id="preparacionReceta" cols="30" rows="10" required></textarea>
             </section>
             <img class="btn-cerrar" src="./assets/img/iconos/coccion.png" alt="simbolo de X">
             <button class="btn-agregar" id="btn-agregar" type="submit">Agregar Receta</button>

@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
   // Declarar variables
   let btnNuevaReceta = document.getElementById("btn-nuevaReceta");
   let btnRecetario = document.getElementById("btn-recetario");
-  let btnCerrars = document.querySelectorAll(".btn-cerrar");
+  let btnsCerrar = document.querySelectorAll(".btn-cerrar");
   let nRConteinter = document.getElementById("nr-conteiner1");
   let rConteinerD = document.getElementById("r-conteiner-display2");
 
-  // Agregar eventos
+  // Agregar eventos para abrir los displays
   btnNuevaReceta.addEventListener("click", abrirDisplayNR);
   btnRecetario.addEventListener("click", abrirDisplayR);
 
-  btnCerrars.forEach((btnCerrar) => {
+  btnsCerrar.forEach((btnCerrar) => {
     btnCerrar.addEventListener("click", cerrarDisplay);
   });
 
@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const preparacionReceta =
       document.getElementById("preparacionReceta").value;
 
-    // Llamada a la función createRecipe
-    createRecipe(
+    // Llamada a la función crearReceta
+    crearReceta(
       nombreReceta,
       imagenReceta,
       descripcionReceta,
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("preparacionReceta").value = "";
   }
 
-  function createRecipe(
+  function crearReceta(
     nombre,
     imagen,
     descripcion,
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nuevaReceta.classList.add("receta");
 
     // Agregar un identificador único
-    const idReceta = generarIdUnico(); // Puedes implementar esta función según tus necesidades
+    const idReceta = generarIdUnico(); 
     nuevaReceta.setAttribute("data-id", idReceta);
 
     // Agregar contenido de la receta
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Función para generar un ID único (puedes personalizar según tus necesidades)
+  // Función para generar un ID único
   function generarIdUnico() {
     return Math.floor(Math.random() * 1000000);
   }

@@ -41,6 +41,7 @@
   border-radius: 5px;
   border: 1px solid var(--gold-700);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  gap: 10px;
 }
 
 .btn-cerrar {
@@ -58,8 +59,6 @@
   align-items: center;
   border: 1px solid var(--gold-700);
   border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 10px;
   background-color: var(--gold-100);
   overflow: auto;
   word-wrap: break-word;
