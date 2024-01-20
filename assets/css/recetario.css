@@ -1,72 +1,78 @@
 :root {
-    --gold-50: #fefce8;
-    --gold-100: #fffbc2;
-    --gold-200: #fff487;
-    --gold-300: #ffe643;
-    --gold-400: #ffd30f;
-    --gold-500: #efba03;
-    --gold-600: #ce9000;
-    --gold-700: #a46604;
-    --gold-800: #884f0b;
-    --gold-900: #734110;
-    --gold-950: #432105;
-  }
+  --gold-50: #fefce8;
+  --gold-100: #fffbc2;
+  --gold-200: #fff487;
+  --gold-300: #ffe643;
+  --gold-400: #ffd30f;
+  --gold-500: #efba03;
+  --gold-600: #ce9000;
+  --gold-700: #a46604;
+  --gold-800: #884f0b;
+  --gold-900: #734110;
+  --gold-950: #432105;
+}
 
 .r-conteiner-display {
-    background-color: var(--gold-300);
-    border: 2px solid var(--gold-600);
-    border-radius: 10px;
-    display: none;
-    flex-direction: column;
-    height: 90%;
-    justify-content: flex-start;
-    align-items: center;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 90%;
-    z-index: 2;
+  background-color: var(--gold-300);
+  border: 2px solid var(--gold-600);
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  height: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  z-index: 2;
+  overflow: auto;
 }
 
 .r-conteiner-display h3 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .r-conteiner {
-    background-color: var(--gold-100);
-    height: 70%;
-    width: 80%;
-    border-radius: 5px;
-    border: 1px solid var(--gold-700);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-
+  background-color: var(--gold-100);
+  height: 70%;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid var(--gold-700);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .btn-cerrar {
-    -webkit-user-drag: none;
-    cursor: pointer;
-    position: absolute;
-    right: 15px;
-    top: 11px;
-    width: 30px;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  width: 30px;
 }
 
 .receta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--gold-700);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: var(--gold-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--gold-700);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: var(--gold-100);
+  overflow: auto;
+}
+
+.receta img {
+    width: 20px;
+    height: 20px;
 }
 
 #recetasContenedor {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
 }
