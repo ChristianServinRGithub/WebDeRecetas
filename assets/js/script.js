@@ -66,19 +66,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("preparacionReceta").value = "";
   }
 
-  function crearReceta(
-    nombre,
-    imagen,
-    descripcion,
-    ingredientes,
-    preparacion
-  ) {
+  function crearReceta(nombre, imagen, descripcion, ingredientes, preparacion) {
     // Crear un nuevo elemento de receta
     const nuevaReceta = document.createElement("div");
     nuevaReceta.classList.add("receta");
 
     // Agregar un identificador único
-    const idReceta = generarIdUnico(); 
+    const idReceta = generarIdUnico();
     nuevaReceta.setAttribute("data-id", idReceta);
 
     // Agregar contenido de la receta

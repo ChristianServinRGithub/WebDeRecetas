@@ -85,7 +85,6 @@ header {
 .s2-img1 {
   transition: transform 2s ease-in-out;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-
 }
 .s2-img1:hover {
   transform: translateY(-30px);
@@ -94,7 +93,6 @@ header {
 .s2-img2 {
   transition: transform 2s ease-in-out;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-
 }
 
 .s2-img2:hover {
@@ -144,7 +142,6 @@ header {
   height: 500px;
   transition: transform 2s ease-in-out;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-
 }
 #section-3 img:hover {
   transform: translateY(-30px);
